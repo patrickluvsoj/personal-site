@@ -6,6 +6,7 @@ function Content() {
             <div className="description">
                 <img className="profile" src="./slack_profile.jpeg" alt="my profile pic"></img>
                 <p>Hey, I'm Patrick!</p>
+                Welcome to my personal site that's under construction 🏗<br></br>
                 I build products at Zeplin by day and fiddle w/ code at night 🌙<br></br>
                 Always scheming 🙈<br></br>
                 Currently in the bay area but used live in Japan 🇯🇵<br></br>
