@@ -1,10 +1,13 @@
+import satellite from './img/satellite.png';
+import profile from './img/slack_profile.jpeg';
+
 function Content() {
     return (
         <div className="about">
-            <img className="grid rotate" src="./satellite.png" alt="grid background"></img>
+            <img className="grid rotate" src={satellite} alt="grid background"></img>
             <h1 className="name">こんにちわ、鈴木弘由です。</h1>
             <div className="description">
-                <img className="profile" src="./slack_profile.jpeg" alt="my profile pic"></img>
+                <img className="profile" src={profile} alt="my profile pic"></img>
                 <p>Hey, I'm Patrick!</p>
                 Welcome to my personal site that's under construction 🏗<br></br>
                 I build products at Zeplin by day and fiddle w/ code at night 🌙<br></br>
