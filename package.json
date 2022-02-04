@@ -1,6 +1,6 @@
 {
   "name": "personal-site",
-  "homepage": "https://github.com/patrickluvsoj/personal-site/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
