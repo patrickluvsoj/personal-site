@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/patrickluvsoj/personal-site/static/css/main.f0a2137f.css",
-    "main.js": "/patrickluvsoj/personal-site/static/js/main.d48b49bf.js",
-    "static/media/astronaut.png": "/patrickluvsoj/personal-site/static/media/astronaut.cba4a37b6b9c1cba765f.png",
-    "static/media/pixel_profile.jpeg": "/patrickluvsoj/personal-site/static/media/pixel_profile.cfc4ab459b433b821451.jpeg",
-    "index.html": "/patrickluvsoj/personal-site/index.html",
-    "main.f0a2137f.css.map": "/patrickluvsoj/personal-site/static/css/main.f0a2137f.css.map",
-    "main.d48b49bf.js.map": "/patrickluvsoj/personal-site/static/js/main.d48b49bf.js.map"
+    "main.css": "./static/css/main.f0a2137f.css",
+    "main.js": "./static/js/main.cbcd3f5a.js",
+    "static/media/astronaut.png": "./static/media/astronaut.cba4a37b6b9c1cba765f.png",
+    "static/media/pixel_profile.jpeg": "./static/media/pixel_profile.cfc4ab459b433b821451.jpeg",
+    "index.html": "./index.html",
+    "main.f0a2137f.css.map": "./static/css/main.f0a2137f.css.map",
+    "main.cbcd3f5a.js.map": "./static/js/main.cbcd3f5a.js.map"
   },
   "entrypoints": [
     "static/css/main.f0a2137f.css",
-    "static/js/main.d48b49bf.js"
+    "static/js/main.cbcd3f5a.js"
   ]
 }
