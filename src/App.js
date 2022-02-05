@@ -1,18 +1,20 @@
-import Header from "./Header";
-import Menu from "./Menu";
+import Layout from "./Layout";
 import Content from "./Content";
-import Footer from "./Footer";
+import Writings from "./Writings";
+import Projects from "./Projects";
+import Random from "./Random";
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div className="parent">
-        <Header/>
-        <div className="main">
-          <Menu />
-          <Content className="content"/>
-        </div>
-        <Footer />
-    </div>
+    <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index path="/about" element={<Content />}/>
+          <Route path="/writing" element={<Writings />}/>
+          <Route path="projects" element={<Projects />}/>
+          <Route path="random" element={<Random />}/>
+        </Route>
+    </Routes>
   );
 }
 

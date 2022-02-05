@@ -1,3 +1,6 @@
+import {NavLink, Outlet} from "react-router-dom";
+
+
 function Menu() {
 
     return (
@@ -7,14 +10,22 @@ function Menu() {
                 <label className="collapse" for="menu-collapsed">{'<<'}</label>
                 <label className="expand" for="menu-collapsed">{'>>'}</label>
             </div>
-            <div className="menu-content">
+            <nav className="menu-content">
                 <ul>
-                    <li className="menu-item">About</li>
-                    <li className="menu-item">Writing</li>
-                    <li className="menu-item">Projects</li>
-                    <li className="menu-item">Random</li>
+                    <li className="menu-item">     
+                        <NavLink className="menu-item-txt" to="about">About</NavLink>
+                    </li>
+                    <li className="menu-item">
+                        <NavLink className="menu-item-txt" to="writing">Writing</NavLink>
+                    </li>
+                    <li className="menu-item">
+                        <NavLink className="menu-item-txt" to="projects">Projects</NavLink>
+                    </li>
+                    <li className="menu-item">
+                        <NavLink className="menu-item-txt" to="random">Random</NavLink>
+                    </li>
                 </ul>
-            </div>
+            </nav>
         </div>        
     )
 }

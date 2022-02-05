@@ -56,13 +56,16 @@ ul {
 }
 
 .menu-item {
+    list-style: none;
+    padding: 14px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.menu-item-txt {
     font-family: 'Press Start 2P';
     font-size: 16px;
     color: #97eb85;
     text-shadow: 2px 2px 2px hotpink;
-    list-style: none;
-    padding: 14px;
-    border-bottom: 1px solid whitesmoke;
 }
 
 .menu-item:hover {
