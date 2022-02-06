@@ -16,7 +16,7 @@ function Menu() {
                         <NavLink className="menu-item-txt" to="about">About</NavLink>
                     </li>
                     <li className="menu-item">
-                        <NavLink className="menu-item-txt" to="writing">Writing</NavLink>
+                        <NavLink className="menu-item-txt" to="writings">Writings</NavLink>
                     </li>
                     <li className="menu-item">
                         <NavLink className="menu-item-txt" to="projects">Projects</NavLink>
