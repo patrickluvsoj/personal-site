@@ -41,7 +41,7 @@
 }
 
 .menu-content {
-    width: 200px;
+    width: 300px;
     height: 100vh;
 }
 
@@ -137,6 +137,10 @@ ul {
 
 .description {
     margin: 80px 0 12px 100px;
+}
+
+.child-list {
+    word-break: break-all;
 }
 
 .name {
